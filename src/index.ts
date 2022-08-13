@@ -11,3 +11,4 @@
 //
 export { DWN } from './dwn.js';
 export type { DIDResolver } from './did/did-resolver.js';
+export type { Message } from './core/message.js';

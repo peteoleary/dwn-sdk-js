@@ -3,6 +3,6 @@ require('esbuild').build({
   bundle      : true,
   minify      : true,
   sourcemap   : true,
-  target      : ['chrome101'],
+  target      : ['chrome101', 'node16'],
   outfile     : 'dist/bundles/index.cjs',
 });
